@@ -3,9 +3,11 @@
   "identifier": "default",
   "description": "enables the default permissions",
   "windows": [
-    "main"
+    "main",
+    "onboard"
   ],
   "permissions": [
-    "core:default"
+    "core:default",
+    "store:default"
   ]
 }
