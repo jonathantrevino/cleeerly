@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main-menu-btn {
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.main-menu-btn:hover {
+  background-color: gray;
+}

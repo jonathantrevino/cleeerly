@@ -14,7 +14,7 @@ export default function OnboardCheck({ children }: { children: React.ReactNode }
       const hasOnboarded = (await store.get('hasOnboarded')) || false;
 
       if (!hasOnboarded) {
-        router.replace('/onboard');
+        //  router.replace('/onboard');
       } else {
       }
 
